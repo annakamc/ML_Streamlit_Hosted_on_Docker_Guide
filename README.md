@@ -18,7 +18,8 @@ By the end of this guide, you'll have a working app running locally and a Docker
 ## Step 2: Set Up Your Python Environment
 In terminal: pip install -r requirements.txt
 
-## Step 3: Set up Your Streamlit App (add code)
+## Step 3: Set up Your Streamlit App 
+Add code in app.py
 
 ## Step 4: Run the Streamlit App Locally
 In terminal: streamlit run app.py
