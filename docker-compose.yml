@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  streamlit:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: Streamlit_ML_Guide
+    cpus: 2
+    mem_limit: "2048m" 
+    ports:
+      - "8501:8501"
+    volumes:
+      - ".:/app:rw"
