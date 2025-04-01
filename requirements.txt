@@ -1,1 +1,4 @@
-
+prophet
+streamlit
+pandas
+numpy
